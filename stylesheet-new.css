@@ -1,0 +1,218 @@
+* {
+	margin: 0; 
+	font-family: Montserrat; 
+	letter-spacing: 1px;
+}
+
+nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 120px;
+	background-color: #262626;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+
+body{
+	background-color: #1a1a1a; 
+}
+
+.navbar img{
+	padding-left: 13px; 
+	padding-bottom: 5px;
+}
+li a {
+	display: block;
+	color: #ffd966;
+	padding: 20px 15px;
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: #4d4d4d;
+	color: white;
+	font-weight: bold; 
+}
+
+li a:hover:not(.active) {
+	background-color: black;
+	color: white;
+}
+
+.main{
+	font-size: 17px;
+	color: white; 
+	background-color: #1a1a1a;
+	margin-left: 120px;
+	padding: 40px;
+	text-align: center; 
+}
+
+.main p {
+	padding-top: 10px;
+}
+.main-content{
+	padding-top: 50px;
+	text-align: left; 
+	line-height: 2; 
+	margin-right: 120px;
+	text-align: justify; 
+}
+
+.form-text {
+	padding-top: 70px;
+	
+}
+
+.form-text p {
+	padding-top: 20px;
+	
+}
+
+.form-text input[type="text"], input[type="password"]{
+	border: none;
+    border-bottom: 1px solid white; 
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 40%;
+    color:white;
+    font-size: 15px;
+    font-family: Century Gothic;
+    text-decoration: none;
+	text-align: center;	
+	line-height: 2;
+	
+}
+
+.form-text input[type="submit"], input[type="reset"]{
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    height: 30px;
+    width: 40%;
+    background-color: #ffd966;
+    color: black;
+    font-size: 20px;
+	font-weight: bold; 
+}
+
+.form-text input[type="submit"]:hover, input[type="reset"]:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.form-contact {
+	padding-top: 30px;
+	text-align: center; 
+}
+
+.form-contact p {
+	padding-top: 20px;
+}
+
+.form-contact input[type="text"], input[type="password"], input[type="email"]{
+	border: none;
+    border-bottom: 1px solid white; 
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 40%;
+    color:white;
+    font-size: 15px;
+    font-family: Century Gothic;
+    text-decoration: none;
+	line-height: 2;
+	text-align: center; 
+}
+
+.form-contact input[type="submit"]{
+	border: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 8px;
+    height: 30px;
+    width: 40%;
+    background-color: #ffd966;
+    color: black;
+    font-size: 20px;
+	font-weight: bold; 
+}
+
+.form-contact input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+
+.form-contact-details {
+	padding-bottom: 20px;
+	font-size: 18px;
+}
+/** Slideshow Properties**/
+* {
+	box-sizing: border-box;
+}
+
+/* Slideshow container */
+* {
+	box-sizing: border-box;
+}
+.mySlides {
+	display: none;
+}
+img {
+	vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow {
+  max-width: 1335px;
+  position: relative;
+  margin: auto;
+  padding-top: 20px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
